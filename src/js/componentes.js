@@ -73,7 +73,7 @@ const resolver=()=>{
     switch(operacion){
         case '+':
             limpiar();
-            cajaDeTexto.value = suma( valorUno, valorDos );
+            cajaDeTexto.value = suma( valorUno, valorDos);
         break;
         case '-':
             limpiar();
