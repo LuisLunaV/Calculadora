@@ -73,21 +73,21 @@ const resolver=()=>{
     switch(operacion){
         case '+':
             limpiar();
-            cajaDeTexto.value = suma( valorUno, valorDos);
+            cajaDeTexto.value = suma( valorUno, valorDos );
         break;
         case '-':
             limpiar();
-            cajaDeTexto.value = resta( valorUno, valorDos);
+            cajaDeTexto.value = resta( valorUno, valorDos );
         break;
     
         case 'x':
             limpiar();
-            cajaDeTexto.value = multiplicacion( valorUno, valorDos);
+            cajaDeTexto.value = multiplicacion( valorUno, valorDos );
         break;
     
         case '/':
             limpiar();
-            cajaDeTexto.value = division( valorUno, valorDos);
+            cajaDeTexto.value = division( valorUno, valorDos );
         break;
     } 
 }
