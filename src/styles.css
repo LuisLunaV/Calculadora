@@ -1,0 +1,80 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(
+    to top,
+    #320000,
+    #3b0504,
+    #430c07,
+    #4c1409,
+    #541c0a
+  );
+}
+
+input {
+  background-color: #ecf0f1;
+  border: solid 5px #fbca1f;
+  border-radius: 10px;
+  font-size: 3rem;
+  margin-top: 20px;
+  text-align: right;
+  height: 15%;
+  width: 85%;
+}
+
+#mesa-calc {
+  border: solid 10px #1a1a1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to bottom,
+    #f9b957,
+    #e8a952,
+    #d79a4c,
+    #c68b47,
+    #b57c41
+  );
+  border-radius: 15px;
+  height: 75%;
+  width: 80%;
+}
+
+#calculadora {
+  box-shadow: 5px 6px 9px 7px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    to right bottom,
+    #222325,
+    #1f2022,
+    #1d1d1f,
+    #1a1a1c,
+    #181719
+  );
+  height: 90%;
+  overflow: hidden;
+  width: 30%;
+}
+#contenedor {
+  height: 70%;
+  width: 90%;
+}
+#cont-buttons {
+overflow: hidden;
+margin-top: 2rem;
+display: grid;
+grid-template-columns: repeat(4,30px);
+grid-template-rows: repeat(3,25px);
+gap: 45px;
+width: 100%;
+
+}
