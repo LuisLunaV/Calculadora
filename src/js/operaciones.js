@@ -3,20 +3,28 @@ import { cajaDeTexto } from "./componentes.js";
 let respuesta;
 
 //Funcioens con los algoritmos para realizar la operacion seleccionada.
-const suma = ( num1 , num2 ) =>{
-return respuesta = parseFloat( num1 ) + parseFloat( num2 );
+const suma = ( acumulador ) =>{
+    
+return acumulador.reduce((acc, num)=> acc + num );
+
 };
 
-const resta = ( num1 , num2 ) =>{
-return respuesta = parseFloat( num1 ) - parseFloat( num2 );
+const resta = ( acumulador ) =>{
+    
+return acumulador.reduce(( acc,num )=>  acc - num);
+
 };
 
-const multiplicacion = ( num1 , num2 ) =>{
-return respuesta = parseFloat( num1 ) * parseFloat( num2 );
+const multiplicacion = ( acumulador ) =>{
+
+return acumulador.reduce(( acc,num )=>  acc * num);
+   
 };
 
-const division = ( num1 , num2 ) =>{
-return respuesta = parseFloat( num1 ) / parseFloat( num2 );
+const division = ( acumulador ) =>{
+
+    return (acumulador[1] != 0)?acumulador.reduce(( acc,num )=>  acc / num):'';
+
 };
 
 //Elimina los valores visibles dentro de la caja de texto.

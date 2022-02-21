@@ -21,6 +21,7 @@ input {
   border: solid 5px #fbca1f;
   border-radius: 10px;
   font-size: 3rem;
+  font-family: monospace;
   margin-top: 20px;
   text-align: right;
   height: 15%;
