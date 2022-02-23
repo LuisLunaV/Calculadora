@@ -7,11 +7,8 @@ h1 {
 button {
   text-align: center;
   overflow: hidden;
-  height: 60px;
-  width: 60px;
   background: #fbca1f;
   font-family: inherit;
-
   font-weight: 900;
   font-size: 18px;
   border: 3px solid black;

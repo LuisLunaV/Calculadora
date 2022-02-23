@@ -1,0 +1,221 @@
+/* //Resolcion para dispositivos moviles muy pequeños: */
+@media(min-width:340px) and (max-width:370px){
+    #mesa-calc {
+        width: 95%;      
+    }
+}
+
+@media(min-width:340px) and (max-width:575px){
+    #calculadora{
+        width: 280px;
+      }
+      button{
+        height: 53px;
+        width: 52px;
+      }
+      #cont-buttons{
+        grid-template-columns: repeat(4,30px);
+        grid-template-rows: repeat(3,25px);
+        gap: 35px;
+
+      }
+}
+
+/* //Resolcion para dispositivos moviles pequeños: */
+@media(min-width:576px) and (max-width:599px){
+    #calculadora{
+        width: 65%;
+      }
+      button{
+        height: 57px;
+        width: 57px;
+      }
+      #cont-buttons{
+        grid-template-columns: repeat(4,30px);
+        grid-template-rows: repeat(3,25px);
+        gap: 40px;
+
+      }
+}
+@media(min-width:600px) and (max-width:629px){
+    #calculadora{
+        width: 62%;
+      }
+      button{
+        height: 57px;
+        width: 57px;
+      }
+      #cont-buttons{
+        grid-template-columns: repeat(4,30px);
+        grid-template-rows: repeat(3,25px);
+        gap: 40px;
+
+      }
+}
+@media(min-width:630px) and (max-width:669px){
+    #calculadora{
+        width: 59%;
+      }
+      button{
+        height: 57px;
+        width: 57px;
+      }
+      #cont-buttons{
+        grid-template-columns: repeat(4,30px);
+        grid-template-rows: repeat(3,25px);
+        gap: 40px;
+
+      }
+}
+@media(min-width:670px) and (max-width:689px){
+    #calculadora{
+        width: 56%;
+      }
+      button{
+        height: 57px;
+        width: 57px;
+      }
+      #cont-buttons{
+        grid-template-columns: repeat(4,30px);
+        grid-template-rows: repeat(3,25px);
+        gap: 40px;
+
+      }
+}
+@media(min-width:690px) and (max-width:767px){
+    #calculadora{
+        width: 53%;
+      }
+      button{
+        height: 57px;
+        width: 57px;
+      }
+      #cont-buttons{
+        grid-template-columns: repeat(4,30px);
+        grid-template-rows: repeat(3,25px);
+        gap: 40px;
+
+      }
+}
+
+/* //Resolcion para tablets: */
+@media(min-width:768px) and (max-width:800px){
+    #calculadora{
+        width: 51%;
+      }
+      button{
+        height: 60px;
+        width: 60px;
+      }
+}
+@media(min-width:800px) and (max-width:840px){
+    #calculadora{
+        width: 49%;
+      }
+      button{
+        height: 60px;
+        width: 60px;
+      }
+}
+@media(min-width:840px) and (max-width:880px){
+    #calculadora{
+        width: 47%;
+      }
+      button{
+        height: 60px;
+        width: 60px;
+      }
+}
+@media(min-width:880px) and (max-width:930px){
+    #calculadora{
+        width: 45%;
+      }
+      button{
+        height: 60px;
+        width: 60px;
+      }
+}
+@media(min-width:930px) and (max-width:970px){
+    #calculadora{
+        width: 43%;
+      }
+      button{
+        height: 60px;
+        width: 60px;
+      }
+}
+@media(min-width:970px) and (max-width:1020px){
+    #calculadora{
+        width: 41%;
+      }
+      button{
+        height: 60px;
+        width: 60px;
+      }
+}
+@media(min-width:1020px) and (max-width:1080px){
+    #calculadora{
+        width: 39%;
+      }
+      button{
+        height: 60px;
+        width: 60px;
+      }
+}
+@media(min-width:1080px) and (max-width:1115px){
+    #calculadora{
+        width: 37%;
+      }
+      button{
+        height: 60px;
+        width: 60px;
+      }
+}
+@media(min-width:1115px) and (max-width:1160px){
+    #calculadora{
+        width: 35%;
+      }
+      button{
+        height: 60px;
+        width: 60px;
+      }
+}
+
+@media(min-width:1160px) and (max-width:1220px){
+    #calculadora{
+        width: 34%;
+      }
+      button{
+        height: 60px;
+        width: 60px;
+      }
+}
+@media(min-width:1220px) and (max-width:1279px){
+    #calculadora{
+        width: 32%;
+      }
+      button{
+        height: 60px;
+        width: 60px;
+      }
+}
+@media(min-width:1279px) and (max-width:1316px){
+    #calculadora{
+        width: 31%;
+      }
+      button{
+        height: 60px;
+        width: 60px;
+      }
+}
+
+/* //Resolcion para pc de escritorio: */
+@media(min-width:1317px){
+#calculadora{
+  width: 30%;
+}
+button{
+    height: 60px;
+    width: 60px;
+  }
+}
