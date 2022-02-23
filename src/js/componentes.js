@@ -26,6 +26,7 @@ contButtons.addEventListener('click',( event )=>{
 
 //Seleccionamos el simbolo de la operacion que vamos a realizar y asignamos el primervalor a la variable 'valorUno'.
 if(cajaDeTexto.value >= 0){
+    
     switch(boton){
 
     case '+':
@@ -55,7 +56,7 @@ if(cajaDeTexto.value >= 0){
 //Asignamos el segundo valor a la variable 'valorDos'.
     case '=':
         (acumulador.length === 0)?'':
-        acumulador.push(parseFloat( cajaDeTexto.value )),
+        acumulador.push((cajaDeTexto.value>0)?parseFloat( cajaDeTexto.value ):0),
         resolver(),
 
         acumulador=[]; //Limpiamos el arreglo para que solo almacene el valor del resultado.
